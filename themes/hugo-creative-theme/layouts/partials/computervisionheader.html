@@ -1,0 +1,21 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="computervisionheader">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.computervisionheader.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.computervisionheader.headline .Site.Params.computervisionheader.description }}
+                    <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.computervisionheader.description }}
+                    <p class="text-faded">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.computervisionheader.buttonText }}
+                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,8 @@
+modalID: 1
+title: Traveltile
+date: Summer 2016
+img: 1.jpg
+client: Test
+clientLink: "#"
+category: Web Development
+description: Traveltile is a proof of concept for a travel aggregation application that can integrate itineraries, photo albums, travel information, and financial planning for personal travel. I came up with the idea for this application after my friends talked about how much effort it took to plan travel agendas, and how all that effort is only used once. This is my first React application, and I further developed learning and integrating various technologies that I required in the development of this application. Some areas that require improvement include cross-browser compatibility, loading times for images, and database security. Some important features that should be integrated before this product can be shipped include user creation and authentication, compositional creation and integration of subtiles, and mobile optimization. Code and further documentation can be found [here] (//github.com/yingw787/traveltile_open_source).

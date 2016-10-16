@@ -1,0 +1,110 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Ying's Portfolio"
+theme = "hugo-creative-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Ying Wang"
+	description = "My portfolio of projects I have worked on."
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "Ying Wang"
+
+		[params.navigation.links]
+			about = "About"
+			webdevelopmentheader     = "Web development"
+			computervisionheader = "Computer vision"
+			threedprintingheader = "3d printing"
+			services  = "Services"
+			contact   = "Contact"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Dream big."
+		subtitle   = "Hi, I'm Ying. I'm a software developer with experience in web development, computer vision, and 3D printing."
+
+	# About section
+	[params.about]
+		headline    = "A bit about me"
+		description = "I graduated from Duke University with a degree in Electrical and Computer Engineering. My dream is to enable anybody to make things. For now, I'm working towards that goal by creating software that's useful and accessible. My resume can be found [here](//yingw787.github.io/resume)."
+
+	# Web development section
+	[params.webdevelopmentheader]
+		headline    = "Web Development"
+		description = "My background in web development involves front-end work in React, back-end work in Express/Node, and database design in SQL. I also have working knowledge of Lodash, jQuery, D3.js, Mocha/Chai, Webpack, and pure CSS/HTML."
+
+	# Computer vision section
+	[params.computervisionheader]
+		headline    = "Computer Vision"
+		description = "My demonstrable background in computer vision primarily involves the use of OpenCV in Python, with an understanding of MATLAB/Simulink libraries."
+
+	# Portfolio modal labels
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+	# 3D printing section
+	[params.threedprintingheader]
+		headline    = "3D Printing"
+		description = "I have a background in using various FDM-based 3D printers (Stratasys, Makerbot, Reprap), in addition to designing components in Sketchup, SolidWorks, and Autodesk Fusion 360. I also have some experience in mechatronics involving 3D printed components, in addition to some basic materials science understanding of 3D printing materials."
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Have questions about my projects, or just want to chat? Feel free to contact me using the methods below."
+		phone = "248-860-6418"
+		email = "yingw787@gmail.com"
+
+	# Service section
+	# [params.services]
+	# 	headline = "At your service"
+	#
+    #     [[params.services.list]]
+    #         icon = "fa-diamond"
+    #         title = "Sturdy Templates"
+    #         description = "Our templates are updated regularly so they don't break."
+	#
+    #     [[params.services.list]]
+	# 		icon = "fa-paper-plane"
+	# 		title = "Ready to Ship"
+	# 		description = "You can use this theme as is, or you can make changes!"
+	#
+	# 	[[params.services.list]]
+    #         icon = "fa-newspaper-o"
+    #         title = "Up to Date"
+    #         description = "We update dependencies to keep things fresh."
+	#
+    #     [[params.services.list]]
+    #         icon = "fa-heart"
+    #         title = "Made with Love"
+    #         description = "You have to make your websites with love these days!"
+
+	# # Aside section
+	# [params.aside]
+	# 	headline = "Oh, and I like donating to charity! You should too!"
+	#
+	# 	[params.aside.button]
+	# 		text = "Find a cause you believe in!"
+	# 		link = "//www.charitynavigator.org/"
