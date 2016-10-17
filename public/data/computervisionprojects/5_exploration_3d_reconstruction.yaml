@@ -1,0 +1,8 @@
+modalID: 5
+title: Exploration into 3D Reconstruction
+date: Spring 2016
+img: 2.jpg
+client: ECE 490 (Independent Study)
+clientLink: "#"
+category: Computer Vision
+description: In this independent study, I learned about various techniques used in developing 3D point clouds. My dream goal is to use this understanding to develop a consistently updating real-time map from multiple monocular cameras. I did not reach this goal during the semester, but I learned about feature tracking, feature matching, photogrammetry, and monocular SLAM techniques (the image shown above is a slide from a successfully running LSD-SLAM instance on the ECCV dataset).

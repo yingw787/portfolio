@@ -1,0 +1,8 @@
+modalID: 4
+title: Electronic Ladder Golf Project
+date: Fall 2015
+img: 1.jpg
+client: ECE 459 (Embedded Systems)
+clientLink: "#"
+category: Computer Vision
+description: As part of our embedded systems final project, I built a computer vision algorithm in order to detect blue and red bolas hanging from a ladder golf set, weighted by the rung they are hanging on. This information would be tabulated and sent to a computer which would display the running score. I learned how to use RGB and HSV colorspaces, convolutions and other image processing transformations, color masking and thresholding, and superpixel analysis, among other computer vision techniques. The result in the above image is an optimal result from one 240p camera, that returned the correct solution. The code and documentation can be found [here] (//github.com/yingw787/ece459_computer_vision).

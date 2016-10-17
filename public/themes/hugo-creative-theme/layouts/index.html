@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.contact }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.hero }}
+            {{ partial "hero.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.webdevelopmentheader }}
+            {{ partial "webdevelopmentheader.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.webdevelopmentprojects }}
+            {{ partial "webdevelopmentportfolio.html" . }}
+            {{ partial "webdevelopmentmodals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.computervisionheader }}
+            {{ partial "computervisionheader.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.computervisionprojects }}
+            {{ partial "computervisionportfolio.html" . }}
+            {{ partial "computervisionmodals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.threedprintingheader }}
+            {{ partial "threedprintingheader.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.threedprintingprojects }}
+            {{ partial "threedprintingportfolio.html" . }}
+            {{ partial "threedprintingmodals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial "aside.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
+        <!-- {{ if .Site.Params.services.list }}
+            {{ partial "services.html" . }}
+        {{ end }} -->
+
+        {{ partial "js.html" . }}
+    </body>
+</html>
