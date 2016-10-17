@@ -1,0 +1,8 @@
+modalID: 6
+title: Novel methods of industrial robot motion planning
+date: Summer 2013
+img: 3.jpg
+client: Research Experience for Undergrads, Oakland University
+clientLink: "#"
+category: Computer Vision
+description: During my freshman summer, I worked at the Chrysler Controls and Robotics Laboratory under Dr. Khalid Mirza. The goal was to develop a method to control an industrial robot end effector (attached to a robot similar to the one in the above photo) by generating position and orientation offsets through an LED wand/gyroscope. The wand would be tracked using a Microsoft Kinect, and the offsets sent to the robot controller. I worked on prototyping a computer vision algorithm to convert the input for the Microsoft Kinect to the input for the robot controller. I learned several computer vision techniques, such as optical flow, blob analysis, and grayscale thresholding, among others.

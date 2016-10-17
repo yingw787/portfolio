@@ -1,0 +1,8 @@
+modalID: 2
+title: Treetime
+date: Summer 2016
+img: 2.jpg
+client: Test
+clientLink: "#"
+category: Web Development
+description: Treetime is a productivity timer centered around denial of browser-based resources. My inspiration for this application came from [Forest] (//forestapp.cc), which is an iOS application that provides that experience on smartphones. The timer works by providing OS notifications through the browser through the Notifications API in conjunction with a running timer generated through setInterval(). This is my first web application, and one aspect of web technologies that caught me off guard was the incosistency of standards applied between browsers and versions. One improvement I would make would be to use the [Electron] (//electron.atom.io) framework to provide a more consistent experience. Another improvement would be to use a framework such as React or Angular instead of fadeIn() and fadeOut() animations through jQuery to prevent any UI quirks through asynchronous loading. The application can be found [here] (//yingw787.github.io/timer).
