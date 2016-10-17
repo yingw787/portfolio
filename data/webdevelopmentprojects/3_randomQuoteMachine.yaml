@@ -1,0 +1,8 @@
+modalID: 3
+title: Random Quote Machine
+date: Summer 2016
+img: 3.jpg
+client: Test
+clientLink: "#"
+category: Web Development
+description: This application generates a random quote from a JSON object of quotes, and enables the user to auto-generate and send a Tweet with the quote. This application assisted in developing my understanding of HTML/CSS, in addition to use of third-party APIs. It can be found [here] (//yingw787.github.io/randomQuoteMachine).

@@ -1,0 +1,21 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="webdevelopmentheader">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.webdevelopmentheader.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.webdevelopmentheader.headline .Site.Params.webdevelopmentheader.description }}
+                    <hr class="light">
+                {{ end }}
+                {{ with .Site.Params.webdevelopmentheader.description }}
+                    <p class="text-faded">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .Site.Params.webdevelopmentheader.buttonText }}
+                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

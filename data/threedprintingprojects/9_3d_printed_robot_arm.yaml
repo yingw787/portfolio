@@ -1,0 +1,8 @@
+modalID: 9
+title: 3D Printed Robot Arm
+date: Spring 2016
+img: 5.jpg
+client: Test
+clientLink: "#"
+category: 3D Printing
+description: I became interested in learning the assembly of a industrial robot, and decided to create one for myself to see how it would come together and operate. The design of the arm came from Zortrax (identical design shown in above image), and I sourced the rest of the components from McMaster-Carr. The successful assembly and testing of this arm lays the groundwork for designing custom robot arms.
