@@ -1,4 +1,4 @@
-baseurl = "https://yingw787.github.io/portfolio"
+baseurl = "https://yingw787.github.io/"
 languageCode = "en-us"
 title = "Ying's Portfolio"
 theme = "hugo-creative-theme"
